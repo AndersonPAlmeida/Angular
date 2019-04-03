@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './meu-form.component.html',
   styleUrls: ['./meu-form.component.css']
 })
+
 export class MeuFormComponent implements OnInit {
   nome: string = 'abc';
   pessoa: any ={
